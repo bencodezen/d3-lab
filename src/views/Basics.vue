@@ -1,9 +1,11 @@
 <script>
 import AddSvgExercise from "../components/AddSvgExercise"
+import BuildingVisualization from "../components/BuildingVisualization"
 
 export default {
   components: {
-    AddSvgExercise
+    AddSvgExercise,
+    BuildingVisualization
   }
 }
 </script>
@@ -12,6 +14,7 @@ export default {
   <main>
     <h1>Section 2: Getting Started with D3</h1>
     <AddSvgExercise />
+    <BuildingVisualization />
   </main>
 </template>
 
