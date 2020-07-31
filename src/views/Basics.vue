@@ -1,11 +1,13 @@
 <script>
 import AddSvgExercise from "../components/AddSvgExercise"
 import BuildingVisualization from "../components/BuildingVisualization"
+import StarbreakCoffee from "../components/StarbreakCoffee"
 
 export default {
   components: {
     AddSvgExercise,
-    BuildingVisualization
+    BuildingVisualization,
+    StarbreakCoffee
   }
 }
 </script>
@@ -17,6 +19,8 @@ export default {
     <AddSvgExercise />
     <h2>Generate Rectangles Based on JSON</h2>
     <BuildingVisualization />
+    <h2>Starbreak Coffee</h2>
+    <StarbreakCoffee />
   </main>
 </template>
 
